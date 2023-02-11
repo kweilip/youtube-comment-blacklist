@@ -5,8 +5,7 @@
 // @license         GPL-3.0-or-later
 // @description     Removes unoriginal YouTube comments.
 // @author          NatoBoram
-// @updateURL       https://github.com/NatoBoram/youtube-comment-blacklist/raw/master/youtube-comment-blacklist.user.js
-// @downloadURL     https://github.com/NatoBoram/youtube-comment-blacklist/raw/master/youtube-comment-blacklist.user.js
+// @updateURL  		http://weip.io:50000/youtube-comment-blacklist/youtube-comment-blacklist.user.js
 // @supportURL      https://github.com/NatoBoram/youtube-comment-blacklist/issues
 // @contributionURL https://paypal.me/NatoBoram/5
 // @include         https://www.youtube.com/watch*
@@ -17,12 +16,14 @@
 	"use strict";
 
 	/** Remove the whole thread, including replies. */
-	const removeThread = true;
+	const removeThread = false;
 
 	/** Turn this on if you want to see which comment has been removed in the console. */
 	const debug = false;
 
 	const bannedWords = [
+		"finally its here",
+		"finally it's here",
 		"always has been",
 		"anyone ?",
 		"anyone?",
