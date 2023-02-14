@@ -51,11 +51,11 @@
 
 	const bannedRegexes = [
 		/\d.? (likes|views)/i, // 3k likes / views
-		/\n\n\n/, // More than 2 newlines
+		// /\n\n\n/, // More than 2 newlines
 		/^(@(\w\s?)+\s)?\d+\s(minute|hour|day|week|year)s?\sago$/i, // 1 week ago
-		/^(\w ?)+:(\n| )/im, // someone:
-		/^\d+% (\w ?)+\n/im, // 3% useful
-		/simp\b/i, // Simp
+		// /^(\w ?)+:(\n| )/im, // someone:
+		// /^\d+% (\w ?)+\n/im, // 3% useful
+		// /simp\b/i, // Simp
 	];
 
 	// Wait for the comment section to load.
